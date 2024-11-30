@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seva Milaap Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50">
+
+  <!-- Header -->
+  <header class="bg-amber-100">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="flex items-center space-x-2">
+        <img src="https://via.placeholder.com/32" alt="Logo" class="rounded-full">
+        <h1 class="text-2xl font-bold text-green-900">सेवा<span class="text-green-700">Milaap</span></h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-black font-semibold hover:text-amber-600">HOME</a>
+        <a href="#" class="text-black font-semibold hover:text-amber-600">ABOUT US</a>
+        <a href="#" class="text-black font-semibold hover:text-amber-600">CONTACT US</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto mt-10 p-6 bg-white shadow-md rounded-md">
+    <!-- Title Section -->
+    <h1 class="text-3xl font-bold text-center mb-4">Volunteer Application Tracker</h1>
+    <p class="text-center text-gray-600 mb-8">Stay updated on your application status with <span class="text-green-600 font-bold">सेवाMilaap</span></p>
+
+    <!-- Status Overview -->
+    <section class="flex justify-center gap-6 mb-10">
+      <!-- Status Card -->
+      <div class="text-center">
+        <div class="bg-orange-200 w-12 h-12 flex items-center justify-center rounded-full mx-auto mb-2">
+          <span class="text-orange-600 font-bold">1</span>
+        </div>
+        <p class="text-gray-700">Submitted</p>
+      </div>
+      <div class="text-center">
+        <div class="bg-purple-200 w-12 h-12 flex items-center justify-center rounded-full mx-auto mb-2">
+          <span class="text-purple-600 font-bold">2</span>
+        </div>
+        <p class="text-gray-700">Under Review</p>
+      </div>
+      <div class="text-center">
+        <div class="bg-green-200 w-12 h-12 flex items-center justify-center rounded-full mx-auto mb-2">
+          <span class="text-green-600 font-bold">3</span>
+        </div>
+        <p class="text-gray-700">Accepted</p>
+      </div>
+      <div class="text-center">
+        <div class="bg-red-200 w-12 h-12 flex items-center justify-center rounded-full mx-auto mb-2">
+          <span class="text-red-600 font-bold">4</span>
+        </div>
+        <p class="text-gray-700">Rejected</p>
+      </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section>
+      <h2 class="text-xl font-bold mb-4">Applications</h2>
+
+      <!-- Application Card 1 -->
+      <div class="bg-orange-100 p-4 rounded-lg shadow-md mb-4">
+        <h3 class="text-lg font-bold text-orange-600">NGO: Helping Hands</h3>
+        <p class="text-gray-700 mt-2">Cause: Education for Underprivileged</p>
+        <p class="text-gray-600">Application Date: November 20, 2024</p>
+        <div class="mt-4">
+          <span class="inline-block bg-purple-500 text-white px-4 py-1 rounded-full">Under Review</span>
+        </div>
+      </div>
+
+      <!-- Application Card 2 -->
+      <div class="bg-green-100 p-4 rounded-lg shadow-md mb-4">
+        <h3 class="text-lg font-bold text-green-600">NGO: Green Earth Initiative</h3>
+        <p class="text-gray-700 mt-2">Cause: Environmental Conservation</p>
+        <p class="text-gray-600">Application Date: November 15, 2024</p>
+        <div class="mt-4">
+          <span class="inline-block bg-green-500 text-white px-4 py-1 rounded-full">Accepted</span>
+        </div>
+      </div>
+
+      <!-- Application Card 3 -->
+      <div class="bg-red-100 p-4 rounded-lg shadow-md mb-4">
+        <h3 class="text-lg font-bold text-red-600">NGO: HealthCare Plus</h3>
+        <p class="text-gray-700 mt-2">Cause: Healthcare Support</p>
+        <p class="text-gray-600">Application Date: November 10, 2024</p>
+        <div class="mt-4">
+          <span class="inline-block bg-red-500 text-white px-4 py-1 rounded-full">Rejected</span>
+        </div>
+      </div>
+
+      <!-- View All Button -->
+      <div class="text-center mt-6">
+        <button class="bg-gray-800 text-white px-6 py-2 rounded-lg hover:bg-gray-700">See all applications</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

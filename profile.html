@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seva Milaap Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50">
+
+  <!-- Header -->
+  <header class="bg-amber-100">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="flex items-center space-x-2">
+        <img src="https://via.placeholder.com/32" alt="Logo" class="rounded-full">
+        <h1 class="text-2xl font-bold text-yellow-900">सेवा<span class="text-yellow-700">Milaap</span></h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-black font-semibold hover:text-amber-600">HOME</a>
+        <a href="#" class="text-black font-semibold hover:text-amber-600">ABOUT US</a>
+        <a href="#" class="text-black font-semibold hover:text-amber-600">CONTACT US</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="max-w-4xl mx-auto my-10 bg-white p-8 shadow-lg rounded-lg">
+    <!-- Back Arrow and Title -->
+    <div class="flex items-center mb-6">
+        <button class="mr-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600 hover:text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+      <h1 class="text-3xl font-bold text-gray-800">CREATE YOUR PROFILE</h1>
+    </div>
+
+    <!-- Profile Picture -->
+    <div class="text-center mb-6">
+      <div class="relative inline-block">
+        <img
+          src="https://via.placeholder.com/150"
+          alt="Profile Picture"
+          class="w-24 h-24 rounded-full border-2 border-gray-300 object-cover"
+        >
+        <label class="absolute bottom-0 right-0 bg-blue-500 text-white p-1 rounded-full cursor-pointer hover:bg-blue-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M17.586 4.586a2 2 0 00-2.828 0L9.243 10.1a1 1 0 00-.243.414l-.707 2.829a1 1 0 001.214 1.214l2.83-.707a1 1 0 00.414-.243l5.514-5.514a2 2 0 000-2.828l-1.415-1.415zM12.586 5l2.829 2.829-4.95 4.95-2.83.707.707-2.83 4.95-4.95z" />
+            <path d="M2 12a2 2 0 012-2h3a1 1 0 010 2H4a1 1 0 00-1 1v3a1 1 0 002 0v-3a2 2 0 012-2h3a1 1 0 110 2H7a2 2 0 01-2 2v3a1 1 0 11-2 0v-3a2 2 0 01-2-2z" />
+          </svg>
+        </label>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <form>
+      <!-- Name Field -->
+      <div class="mb-4">
+        <label for="name" class="block text-gray-700 font-medium">Name</label>
+        <input
+          type="text"
+          id="name"
+          class="mt-1 w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          placeholder="Enter your name"
+          value="SHREYA"
+        >
+      </div>
+
+      <!-- Email Field -->
+      <div class="mb-4">
+        <label for="email" class="block text-gray-700 font-medium">Email</label>
+        <input
+          type="email"
+          id="email"
+          class="mt-1 w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          placeholder="Enter your email"
+          value="shreyaaa@gmail.com"
+        />
+      </div>
+
+      <!-- Date of Birth -->
+      <div class="mb-4">
+        <label for="dob" class="block text-gray-700 font-medium">Date of Birth</label>
+        <input
+          type="date"
+          id="dob"
+          class="mt-1 w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          value="2005-05-23"
+        />
+      </div>
+
+      <!-- Country/Region -->
+      <div class="mb-4">
+        <label for="country" class="block text-gray-700 font-medium">Country/Region</label>
+        <select
+          id="country"
+          class="mt-1 w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+        >
+          <option>India</option>
+          <option>United States</option>
+          <option>Canada</option>
+          <option>United Kingdom</option>
+          <option>Australia</option>
+        </select>
+      </div>
+
+      <!-- Skills -->
+      <div class="mb-4">
+        <label for="skills" class="block text-gray-700 font-medium">Skills</label>
+        <input
+          type="text"
+          id="skills"
+          class="mt-1 w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          placeholder="E.g., Communication, Leadership, Teamwork"
+        />
+      </div>
+
+      <!-- Experience -->
+      <div class="mb-4">
+        <label for="experience" class="block text-gray-700 font-medium">Experience</label>
+        <textarea
+          id="experience"
+          rows="3"
+          class="mt-1 w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          placeholder="Describe your previous work experience"
+        ></textarea>
+      </div>
+
+      <!-- Achievements -->
+      <div class="mb-4">
+        <label for="achievements" class="block text-gray-700 font-medium">Achievements</label>
+        <textarea
+          id="achievements"
+          rows="3"
+          class="mt-1 w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          placeholder="List your accomplishments and recognitions"
+        ></textarea>
+      </div>
+
+      <!-- Languages -->
+      <div class="mb-6">
+        <label for="languages" class="block text-gray-700 font-medium">Languages</label>
+        <input
+          type="text"
+          id="languages"
+          class="mt-1 w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"
+          placeholder="E.g., English, Hindi, Spanish"
+        />
+      </div>
+
+      <!-- Submit Button -->
+      <div class="text-center">
+        <a href="opportunities.html" class="w-full">
+          <button type="button"
+            class="w-full bg-yellow-700 hover:bg-yellow-600 text-white font-medium py-2 px-4 rounded-lg focus:outline-none focus:ring focus:ring-yellow-200">
+            Create Profile →
+          </button>
+        </a>
+      </div>
+      
+    </form>
+  </div>
+  <footer class="bg-amber-100 py-6 mt-8">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+      <div class="text-black font-bold text-xl">© Seva Milaap</div>
+      <nav class="flex flex-wrap gap-4 text-sm">
+        <a href="#" class="text-gray-700 hover:text-green-700">Opportunities</a>
+        <a href="#" class="text-gray-700 hover:text-green-700">Leader Board</a>
+        <a href="#" class="text-gray-700 hover:text-green-700">Update Profile</a>
+        <a href="#" class="text-gray-700 hover:text-green-700">Contact Us</a>
+      </nav>
+      <div class="text-gray-600">
+        <p>Email: SevaMilaap@gmail.com</p>
+        <p>Phone: 2345678901</p>
+        <div class="flex space-x-3 mt-2">
+          <a href="#" class="text-blue-600"><img src="https://via.placeholder.com/24x24" alt="FB"></a>
+          <a href="#" class="text-pink-600"><img src="https://via.placeholder.com/24x24" alt="Instagram"></a>
+          <a href="#" class="text-blue-500"><img src="https://via.placeholder.com/24x24" alt="Email"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seva Milaap Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50">
+
+  <!-- Header -->
+  <header class="bg-amber-100">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="flex items-center space-x-2">
+        <img src="https://via.placeholder.com/32" alt="Logo" class="rounded-full">
+        <h1 class="text-2xl font-bold text-green-900">सेवा<span class="text-green-700">Milaap</span></h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-black font-semibold hover:text-amber-600">HOME</a>
+        <a href="#" class="text-black font-semibold hover:text-amber-600">ABOUT US</a>
+        <a href="#" class="text-black font-semibold hover:text-amber-600">CONTACT US</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Filter Section -->
+  <section class="bg-white p-4 shadow-md mx-32 rounded-md">
+    
+    <div class="flex flex-wrap gap-4">
+      <select class="border rounded px-4 py-2">
+        <option>Project: All</option>
+        <option>Community Service</option>
+        <option>Environmental Cleanup</option>
+        <option>Education Support</option>
+        <option>Health Campaigns</option>
+      </select>
+      <select class="border rounded px-4 py-2">
+        <option>Location: All</option>
+        <option>Janakpuri</option>
+        <option>Shahadra</option>
+        <option>Lodhi Road</option>
+        <option>Indirapuram</option>
+        <option>Sita Vihar</option>
+      </select>
+      <select class="border rounded px-4 py-2">
+        <option>Date: All</option>
+        <option>Today</option>
+        <option>Tomorrow</option>
+        <option>This Week</option>
+        <option>Next Week</option>
+      </select>
+      <select class="border rounded px-4 py-2">
+        <option>Time: All</option>
+        <option>Morning</option>
+        <option>Afternoon</option>
+        <option>Evening</option>
+        <option>Full Day</option>
+      </select>
+      <select class="border rounded px-4 py-2">
+        <option>Age: All</option>
+        <option>16-18</option>
+        <option>18-25</option>
+        <option>25-40</option>
+        <option>40+</option>
+      </select>
+      <input type="text" placeholder="Search NGO name" class="border rounded px-4 py-2 flex-grow">
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <main class="p-6">
+    <h2 class="text-center text-2xl font-semibold mb-6">Volunteering here, met my match!</h2>
+    
+    <!-- NGO Cards -->
+    <div class="grid gap-6 mx-24">
+      <!-- Card 1 -->
+      <div class="bg-yellow-100 rounded-lg p-4 flex items-start shadow">
+        <img src="https://via.placeholder.com/100" alt="NGO image" class="w-24 h-24 rounded-md">
+        <div class="ml-4 flex-grow">
+          <h3 class="font-bold text-lg">NGO For Change</h3>
+          <p>Event: Seva For Elders</p>
+          <p>Date: 20th December, 2024</p>
+          <p>Location: Janakpuri West</p>
+          <a href="#" class="text-blue-600">Visit their website</a>
+        </div>
+        <div class="flex flex-col gap-2 mx-16">
+          <button class="bg-blue-500 text-white px-4 py-2 rounded">Apply</button>
+          <button class="bg-gray-300 px-4 py-2 rounded">More info</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-yellow-100 rounded-lg p-4 flex items-start shadow">
+        <img src="https://via.placeholder.com/100" alt="NGO image" class="w-24 h-24 rounded-md">
+        <div class="ml-4 flex-grow">
+          <h3 class="font-bold text-lg">Krishna Welfare NGO</h3>
+          <p>Event: Serve Tea Drive</p>
+          <p>Date: 21st December, 2024</p>
+          <p>Location: Shahadra</p>
+          <a href="#" class="text-blue-600">Visit their website</a>
+        </div>
+        <div class="flex flex-col gap-2 mx-16">
+          <button class="bg-blue-500 text-white px-4 py-2 rounded">Apply</button>
+          <button class="bg-gray-300 px-4 py-2 rounded">More info</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-yellow-100 rounded-lg p-4 flex items-start shadow">
+        <img src="https://via.placeholder.com/100" alt="NGO image" class="w-24 h-24 rounded-md">
+        <div class="ml-4 flex-grow">
+          <h3 class="font-bold text-lg">Nand Kishore NGO</h3>
+          <p>Event: School Drive</p>
+          <p>Date: 21st December, 2024</p>
+          <p>Location: Lodhi Road</p>
+          <a href="#" class="text-blue-600">Visit their website</a>
+        </div>
+        <div class="flex flex-col gap-2 mx-16">
+          <button class="bg-blue-500 text-white px-4 py-2 rounded">Apply</button>
+          <button class="bg-gray-300 px-4 py-2 rounded">More info</button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-yellow-100 rounded-lg p-4 flex items-start shadow">
+        <img src="https://via.placeholder.com/100" alt="NGO image" class="w-24 h-24 rounded-md">
+        <div class="ml-4 flex-grow">
+          <h3 class="font-bold text-lg">Rani Mahajan School Of Hope</h3>
+          <p>Event: School Drive</p>
+          <p>Date: 22nd December, 2024</p>
+          <p>Location: Indirapuram</p>
+          <a href="#" class="text-blue-600">Visit their website</a>
+        </div>
+        <div class="flex flex-col gap-2 mx-16">
+          <button class="bg-blue-500 text-white px-4 py-2 rounded">Apply</button>
+          <button class="bg-gray-300 px-4 py-2 rounded">More info</button>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-yellow-100 rounded-lg p-4 flex items-start shadow">
+        <img src="https://via.placeholder.com/100" alt="NGO image" class="w-24 h-24 rounded-md">
+        <div class="ml-4 flex-grow">
+          <h3 class="font-bold text-lg">Hope & Trust NGO</h3>
+          <p>Event: Awareness Campaign</p>
+          <p>Date: 23rd December, 2024</p>
+          <p>Location: Sita Vihar, West Delhi</p>
+          <a href="#" class="text-blue-600">Visit their website</a>
+        </div>
+        <div class="flex flex-col gap-2 mx-16">
+          <button class="bg-blue-500 text-white px-4 py-2 rounded">Apply</button>
+          <button class="bg-gray-300 px-4 py-2 rounded">More info</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-amber-100 py-6 mt-8">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+      <div class="text-black font-bold text-xl">© Seva Milaap</div>
+      <nav class="flex flex-wrap gap-4 text-sm">
+        <a href="#" class="text-gray-700 hover:text-green-700">Opportunities</a>
+        <a href="#" class="text-gray-700 hover:text-green-700">Leader Board</a>
+        <a href="#" class="text-gray-700 hover:text-green-700">Update Profile</a>
+        <a href="#" class="text-gray-700 hover:text-green-700">Contact Us</a>
+      </nav>
+      <div class="text-gray-600">
+        <p>Email: SevaMilaap@gmail.com</p>
+        <p>Phone: 2345678901</p>
+        <div class="flex space-x-3 mt-2">
+          <a href="#" class="text-blue-600"><img src="https://via.placeholder.com/24x24" alt="FB"></a>
+          <a href="#" class="text-pink-600"><img src="https://via.placeholder.com/24x24" alt="Instagram"></a>
+          <a href="#" class="text-blue-500"><img src="https://via.placeholder.com/24x24" alt="Email"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
