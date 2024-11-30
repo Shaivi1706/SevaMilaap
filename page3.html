@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Registration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-amber-50">
+    <!-- Header -->
+    <header class="bg-amber-100 py-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold text-green-900">सेवा<span class="text-green-700">Milaap</span></h1>
+            <nav>
+                <ul class="flex space-x-8">
+                    <li><a href="index.html" class="text-black font-semibold hover:text-amber-600">HOME</a></li>
+                    <li><a href="#" class="text-black font-semibold hover:text-amber-600">ABOUT US</a></li>
+                    <li><a href="#" class="text-black font-semibold hover:text-amber-600">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Application Form Section -->
+    <section class="max-w-3xl mx-auto bg-white mt-10 p-8 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold text-center mb-6">Apply to Join an NGO</h2>
+        
+        <form action="success.html" method="POST">
+            <!-- Reason for Applying -->
+            <div class="mb-4">
+                <label for="reason" class="block text-gray-700 font-medium">Why do you want to apply for this NGO?</label>
+                <textarea id="reason" name="reason" rows="4" required placeholder="Share your motivation for joining this NGO"
+                    class="w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+            </div>
+
+            <!-- Why SevaMilaap -->
+            <div class="mb-4">
+                <label for="platform" class="block text-gray-700 font-medium">Why did you choose SevaMilaap?</label>
+                <textarea id="platform" name="platform" rows="4" required placeholder="Share what you like about this platform"
+                    class="w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"></textarea>
+            </div>
+
+            <!-- Referral Code -->
+            <div class="mb-4">
+                <label for="referral" class="block text-gray-700 font-medium">Referral Code (Optional)</label>
+                <input type="text" id="referral" name="referral" placeholder="Enter your referral code (if any)"
+                    class="w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400">
+            </div>
+
+            <!-- Event Selection -->
+            <div class="mb-4">
+                <label for="event" class="block text-gray-700 font-medium">Select Event</label>
+                <select id="event" name="event" required
+                    class="w-full px-4 py-2 mt-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                    <option value="">-- Select an Event --</option>
+                    <option value="seva-elders">Seva for Elders</option>
+                    <option value="serve-tea">Serve Tea Drive</option>
+                    <option value="school-drive">School Drive</option>
+                    <option value="awareness-campaign">Awareness Campaign</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center">
+                <button type="submit"
+                    class="bg-yellow-700 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-400 shadow-md">
+                    Submit Application
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="bg-amber-100 py-6 mt-8">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <div class="text-black font-bold text-xl">© Seva Milaap</div>
+          <nav class="flex flex-wrap gap-4 text-sm">
+            <a href="#" class="text-gray-700 hover:text-green-700">Opportunities</a>
+            <a href="#" class="text-gray-700 hover:text-green-700">Leader Board</a>
+            <a href="#" class="text-gray-700 hover:text-green-700">Update Profile</a>
+            <a href="#" class="text-gray-700 hover:text-green-700">Contact Us</a>
+          </nav>
+          <div class="text-gray-600">
+            <p>Email: SevaMilaap@gmail.com</p>
+            <p>Phone: 2345678901</p>
+            <div class="flex space-x-3 mt-2">
+              <a href="#" class="text-blue-600"><img src="https://via.placeholder.com/24x24" alt="FB"></a>
+              <a href="#" class="text-pink-600"><img src="https://via.placeholder.com/24x24" alt="Instagram"></a>
+              <a href="#" class="text-blue-500"><img src="https://via.placeholder.com/24x24" alt="Email"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    </body>
+    </html>
